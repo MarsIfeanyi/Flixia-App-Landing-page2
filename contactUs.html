@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <h2 class="formTitle">Write to us Here</h2>
+      </div>
+      <div class="container">
+        <form>
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fullName"
+              required
+              placeholder="Marcellus  Ifeanyi"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              required
+              placeholder="marsifeanyi.code@gmail.com"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="phoneNumber" class="form-label">Phone Number:</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phoneNumber"
+              required
+              placeholder="+2347064643074"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="your message here"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
