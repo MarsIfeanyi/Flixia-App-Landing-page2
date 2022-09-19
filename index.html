@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/image/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Flixia App Landing Page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d8db1a0f1d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand navLogo" href="#">
+              <img
+                src="./assets/image/flixiaLogo.png"
+                class="img-fluid"
+                alt="flixiaLogo"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbarLinks" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#aboutUs"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ourServices">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ourContacts">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signIn.html">Log In</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section class="heroContainer">
+          <div class="container-fluid HeroImage">
+            <div class="row">
+              <img
+                src="./assets/image/videostream.jpeg"
+                class="img-fluid"
+                alt="HeroImage"
+              />
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="about aboutContainer" id="aboutUs">
+          <div class="container featureContainer">
+            <div class="row">
+              <h2 class="text-center aboutUs">About Us</h2>
+              
+                <div class="col-md-6 col-lg-4 colContainer">
+                  <i class="fa-solid fa-circle-check fa-4x fontIcons"></i>
+                  <h3 class="iconTitle">Easy to use.</h3>
+                  <p class="iconPara">
+                    So easy to use, enjoy your High quality video streaming at
+                    ease
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-4 colContainer">
+                  <i class="fa-solid fa-bullseye fa-4x fontIcons"></i>
+                  <h3 class="iconTitle">Optimized Video Streaming</h3>
+                  <p class="iconPara">
+                    Our Optimized and High Video streaming speed makes us the
+                    BEST
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-4 colContainer">
+                  <i class="fa-solid fa-heart fa-4x fontIcons"></i>
+                  <h3 class="iconTitle">High Quality Video.</h3>
+                  <p class="iconPara">
+                    Find the love of your of high quality videos and less data
+                    usage
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="services" id="ourServices">
+          <div class="container ">
+            <div class="row">
+              <h2 class="text-center ourService">Our Services</h2>
+
+              <div class="servicesOffered">
+                <p>Online Video Streaming</p>
+                <p>Video Coverage</p>
+                <p>Content Writing</p>
+                <p>Digital marketing</p>
+                <p>Video Editing and Graphics</p>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+      </article>
+      <article>
+        <section>
+            <div class="container-fluid actionContainer">
+                <div class="row">
+                    <div class="col-12 col-lg-6 gap-5 gx-5 d-flex justify-content-end actionContainer ">
+                        <a class="btn btnSignUp btnContent" href="signUp.html" role="button "
+                           >Sign Up</a
+                        >
+                        <a class="btn btnSignIn btnContent" href="signIn.html" role="button"
+                          >Sign In</a
+                        >
+                      </div>
+                  </div>
+            </div>
+        </section>
+      </article>
+    </main>
+
+    <footer id="ourContacts">
+      <nav class="navbarLinks">
+        <div class="container-fluid mt-5 d-inline justify-content-end navbarLinks">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <a class="p-1 rounded footerLinks contactUs" href="contactUs.html">Contact Us</a>
+
+
+              <a
+                class="p-1 rounded footerLinks"
+                href="https://www.linkedin.com/in/marcellus-ifeanyi/"
+              >
+                <i class="fa-brands fa-2x fa-linkedin"></i>
+              </a>
+              <a
+                class="p-1 rounded footerLinks"
+                href="https://facebook.com/Marscellusifeanyi"
+                ><i class="fa-brands fa-2x fa-square-facebook"></i
+              ></a>
+              <a class="p-1 rounded footerLinks" href="https://twitter.com/Mars_Energy"
+                ><i class="fa-brands fa-2x fa-square-twitter"></i
+              ></a>
+
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="copyright">
+        <p class="copyright ">© Copyright 2022 Mars</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
